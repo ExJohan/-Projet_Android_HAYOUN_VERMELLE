@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.johan.multi_quiz.ResultActivity">
+
+    <TextView
+        android:id="@+id/votrescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/commentaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/returntheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToThemes"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="40dp"
+        android:text="@string/btbacktheme" />
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/unnamed"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/choosetheme"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/sport"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:onClick="goToSports"
+        android:text="Sports"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/musique"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:onClick="goToMusique"
+        android:layout_weight="1"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/musique" />
+
+    <Button
+        android:id="@+id/histoire"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToHistoire"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/histoire" />
+
+    <Button
+        android:id="@+id/jeux"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToJeux"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/jeux" />
+
+    <Button
+        android:id="@+id/informatique"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToInformatique"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/informatique" />
+
+    <Button
+        android:id="@+id/animaux"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToAnimaux"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/animaux" />
+
+    <Button
+        android:id="@+id/manga"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToMangas"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/mangas" />
+
+    <Button
+        android:id="@+id/bd"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToBD"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="@string/bd" />
+
+    <Button
+        android:id="@+id/films"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goToFilms"
+        android:background="@drawable/button_shape"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="10dp"
+        android:text="Films" />
+
+</LinearLayout>

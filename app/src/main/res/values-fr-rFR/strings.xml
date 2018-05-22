@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi-Quiz</string>
+    <string name="choosetheme">Choisissez le thème</string>
+    <string name="musique">Musique</string>
+    <string name="histoire">Histoire</string>
+    <string name="jeux">Jeux-Vidéo</string>
+    <string name="informatique">Informatique</string>
+    <string name="animaux">Animaux</string>
+    <string name="mangas">Animes et Mangas</string>
+    <string name="bd">BD</string>
+    <string name="choosedif">Choisissez la difficulté</string>
+    <string name="easy">Facile</string>
+    <string name="medium">Moyen</string>
+    <string name="hard">Difficile</string>
+    <string name="svdl">Service téléchargé</string>
+    <string name="btnext">Continuer</string>
+    <string name="btbacktheme">Retourner aux thèmes</string>
+</resources>

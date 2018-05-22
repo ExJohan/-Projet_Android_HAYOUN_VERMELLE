@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Multi-Quiz</string>
+    <string name="choosetheme">Choose the category</string>
+    <string name="musique">Music</string>
+    <string name="histoire">History</string>
+    <string name="jeux">Video-Games</string>
+    <string name="informatique">Computer Science</string>
+    <string name="animaux">Animals</string>
+    <string name="mangas">Animes and Mangas</string>
+    <string name="bd">Comics</string>
+    <string name="choosedif">Choose the difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="svdl">Service Downloaded</string>
+    <string name="btnext">Next</string>
+    <string name="btbacktheme">Back to the categories</string>
+</resources>
