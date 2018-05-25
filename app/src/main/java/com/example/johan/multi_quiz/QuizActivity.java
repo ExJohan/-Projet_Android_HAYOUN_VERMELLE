@@ -67,7 +67,7 @@ public class QuizActivity extends AppCompatActivity {
     public JSONObject getQuizFromFile() {
         try {
             InputStream is = new FileInputStream(getCacheDir() + "/" + "quiz.json");
-            String result = InputStreamOperations.InputStreamToString(is);
+            String result = InputStreamOperations.InputStreamToString(is); //On converti le cache en String
             try {
                 quizObject = new JSONObject(result);
                 JSONArray array = new JSONArray(quizObject.getString("results"));
